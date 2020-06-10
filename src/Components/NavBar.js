@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
   title: {
     flexGrow: 1,
     fontSize: 24,
-    textAlign: 'center',
+    textAlign: 'left',
   },
 }));
 
@@ -30,7 +30,11 @@ export default function NavBar() {
           <Typography variant="title" color="inherit" className={classes.title}>
             Ryan Bettis's Portfolio
           </Typography>
-          <Button color="inherit" className={classes.menuButton}>
+          <Button
+            color="inherit"
+            className={classes.menuButton}
+            href="https://github.com/rjbettis"
+          >
             GitHub
           </Button>
           <Button color="inherit" className={classes.menuButton}>

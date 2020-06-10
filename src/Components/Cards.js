@@ -10,6 +10,9 @@ import Box from '@material-ui/core/Box';
 import Container from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
 import Divider from '@material-ui/core/Divider';
+import FindACriterion from '../Images/find_a_criterion.jpg';
+import CollectionTracker from '../Images/collection_tracker.jpg';
+import TwitterClone from '../Images/twitter_clone.jpg';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -31,12 +34,12 @@ export default function MediaCard() {
   return (
     <Box component="span" m={1} p={1}>
       <Container className={classes.root}>
-        <Grid container spacing={2} justify="center">
+        <Grid container spacing={0} justify="center">
           <Grid item xl={3} lg={3} md={4} sm={7} xs={7}>
             <Card className={classes.card}>
               <CardMedia
                 className={classes.media}
-                image="/static/images/cards/contemplative-reptile.jpg"
+                image={FindACriterion}
                 title="Find a Criterion"
               />
               <CardContent>
@@ -44,14 +47,30 @@ export default function MediaCard() {
                   Find a Criterion
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam
+                  Recreation of the "Explore" feature on the old criterion
+                  website. I set out to make a 1:1 recreation in order to
+                  sharpen my styling skills. Built with a few components that
+                  render information based on states passed down as props
+                  through react router and importing JSON files.
+                  <br />
+                  <br />
+                  <strong>
+                    <u>Technologies</u>
+                  </strong>
+                  <br />
+                  Create React App <br />
+                  React Router <br />
+                  React Bootstrap <br />
+                  AWS S3 <br />
                 </Typography>
               </CardContent>
               <Divider />
               <CardActions>
-                <Button size="medium" color="dark">
+                <Button
+                  size="medium"
+                  color="dark"
+                  href="https://github.com/rjbettis/find-a-criterion"
+                >
                   GitHub
                 </Button>
                 <Button size="medium" color="dark">
@@ -65,7 +84,7 @@ export default function MediaCard() {
             <Card className={classes.card}>
               <CardMedia
                 className={classes.media}
-                image="/static/images/cards/contemplative-reptile.jpg"
+                image={CollectionTracker}
                 title="Find a Criterion"
               />
               <CardContent>
@@ -73,15 +92,34 @@ export default function MediaCard() {
                   Collection Tracker
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  I was never satisfied with video game collection apps and
+                  always wanted to build my own. I took this opportunity to
+                  build a full stack app using Serverless and AWS technologies.
+                  Search 3rd party API to add games to your personal database
+                  collection.
+                  <br />
+                  <br />
+                  <strong>
+                    <u>Technologies</u>
+                  </strong>
+                  <br />
+                  Create React App <br />
+                  React Router <br />
+                  React Bootstrap <br />
+                  Serveless Application Framework <br />
+                  AWS API Gateway <br />
+                  AWS Lambda <br />
+                  AWS DynamoDB <br />
+                  AWS S3 <br />
                 </Typography>
               </CardContent>
               <Divider />
               <CardActions>
-                <Button size="medium" color="dark">
+                <Button
+                  size="medium"
+                  color="dark"
+                  href="https://github.com/rjbettis/collection-tracker"
+                >
                   GitHub
                 </Button>
                 <Button size="medium" color="dark">
@@ -95,7 +133,7 @@ export default function MediaCard() {
             <Card className={classes.card}>
               <CardMedia
                 className={classes.media}
-                image="/static/images/cards/contemplative-reptile.jpg"
+                image={TwitterClone}
                 title="Find a Criterion"
               />
               <CardContent>
@@ -103,15 +141,31 @@ export default function MediaCard() {
                   Ryan's Twitter Clone
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  Most everyone knows twitter so the reasoning behind this is to
+                  give potential interviewers something to see that is familiar
+                  and easily recognizable.
+                  <br />
+                  <br />
+                  <strong>
+                    <u>Technologies</u>
+                  </strong>
+                  <br />
+                  Create React App <br />
+                  React Router <br />
+                  React Bootstrap <br />
+                  Serveless Application Framework <br />
+                  AWS API Gateway <br />
+                  AWS Lambda <br />
+                  AWS S3 <br />
                 </Typography>
               </CardContent>
               <Divider />
               <CardActions>
-                <Button size="medium" color="dark">
+                <Button
+                  size="medium"
+                  color="dark"
+                  href="https://github.com/rjbettis/twitter-clone"
+                >
                   GitHub
                 </Button>
                 <Button size="medium" color="dark">
