@@ -1,9 +1,8 @@
 import React from 'react';
-//import './App.css';
 import NavBar from './Components/NavBar';
-import Cards from './Components/Cards';
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
+import Projects from './Components/Projects';
 
 function App() {
   const darkTheme = createMuiTheme({
@@ -15,9 +14,8 @@ function App() {
   return (
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
-
       <NavBar />
-      <Cards />
+      <Projects />
     </ThemeProvider>
   );
 }

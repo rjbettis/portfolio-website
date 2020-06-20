@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function MediaCard() {
+export default function Projects() {
   const classes = useStyles();
 
   return (
@@ -47,6 +47,9 @@ export default function MediaCard() {
                   Find a Criterion
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
+                  Find a new movie to watch from the Criterion Collection.
+                  <br />
+                  <br />
                   Recreation of the "Explore" feature on the old criterion
                   website. I set out to make a 1:1 recreation in order to
                   sharpen my styling skills. Built with a few components that
@@ -58,22 +61,28 @@ export default function MediaCard() {
                     <u>Technologies</u>
                   </strong>
                   <br />
-                  Create React App <br />
-                  React Router <br />
-                  React Bootstrap <br />
-                  AWS S3 <br />
+                  Create React App
+                  <br />
+                  React Router
+                  <br />
+                  React Bootstrap
+                  <br />
+                  AWS S3
+                  <br />
+                  AWS CloudFront
+                  <br />
+                  AWS Route 53
                 </Typography>
               </CardContent>
               <Divider />
               <CardActions>
                 <Button
                   size="medium"
-                  color="dark"
                   href="https://github.com/rjbettis/find-a-criterion"
                 >
                   GitHub
                 </Button>
-                <Button size="medium" color="dark">
+                <Button size="medium" href="https://www.findacriterion.com">
                   Website
                 </Button>
               </CardActions>
@@ -92,37 +101,50 @@ export default function MediaCard() {
                   Collection Tracker
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                  I was never satisfied with video game collection apps and
-                  always wanted to build my own. I took this opportunity to
-                  build a full stack app using Serverless and AWS technologies.
-                  Search 3rd party API to add games to your personal database
-                  collection.
+                  Build a personalized database to track your video game
+                  collection. <br />
+                  <br />I was never satisfied with video game collection apps
+                  and always wanted to build my own. I took this opportunity to
+                  build a full stack app using React, Serverless, AWS and
+                  Node.js.
                   <br />
                   <br />
                   <strong>
                     <u>Technologies</u>
                   </strong>
                   <br />
-                  Create React App <br />
-                  React Router <br />
-                  React Bootstrap <br />
-                  Serveless Application Framework <br />
-                  AWS API Gateway <br />
-                  AWS Lambda <br />
-                  AWS DynamoDB <br />
-                  AWS S3 <br />
+                  Create React App
+                  <br />
+                  React Router
+                  <br />
+                  React Bootstrap
+                  <br />
+                  Node.js
+                  <br />
+                  Serveless Application Framework
+                  <br />
+                  AWS API Gateway
+                  <br />
+                  AWS Lambda
+                  <br />
+                  AWS DynamoDB
+                  <br />
+                  AWS S3
+                  <br />
+                  AWS CloudFront
+                  <br />
+                  AWS Route 53
                 </Typography>
               </CardContent>
               <Divider />
               <CardActions>
                 <Button
                   size="medium"
-                  color="dark"
                   href="https://github.com/rjbettis/collection-tracker"
                 >
                   GitHub
                 </Button>
-                <Button size="medium" color="dark">
+                <Button size="medium" href="https://www.game-collection.org">
                   Website
                 </Button>
               </CardActions>
@@ -143,33 +165,42 @@ export default function MediaCard() {
                 <Typography variant="body2" color="textSecondary" component="p">
                   Most everyone knows twitter so the reasoning behind this is to
                   give potential interviewers something to see that is familiar
-                  and easily recognizable.
+                  and easily recognizable. I am in the early stages of this so
+                  it is not hosted yet.
                   <br />
                   <br />
                   <strong>
                     <u>Technologies</u>
                   </strong>
                   <br />
-                  Create React App <br />
-                  React Router <br />
-                  React Bootstrap <br />
-                  Serveless Application Framework <br />
-                  AWS API Gateway <br />
-                  AWS Lambda <br />
-                  AWS S3 <br />
+                  Create React App
+                  <br />
+                  React Router
+                  <br />
+                  React Bootstrap
+                  <br />
+                  Node.js
+                  <br />
+                  Serveless Application Framework
+                  <br />
+                  AWS API Gateway
+                  <br />
+                  AWS Lambda
+                  <br />
+                  AWS S3
+                  <br />
                 </Typography>
               </CardContent>
               <Divider />
               <CardActions>
                 <Button
                   size="medium"
-                  color="dark"
                   href="https://github.com/rjbettis/twitter-clone"
                 >
                   GitHub
                 </Button>
-                <Button size="medium" color="dark">
-                  Website
+                <Button size="medium">
+                  <strike>Website</strike>
                 </Button>
               </CardActions>
             </Card>

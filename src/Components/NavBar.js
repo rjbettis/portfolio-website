@@ -27,9 +27,17 @@ export default function NavBar() {
     <div>
       <AppBar position="static" color="default">
         <Toolbar>
-          <Typography variant="title" color="inherit" className={classes.title}>
+          <Typography color="inherit" className={classes.title}>
             Ryan Bettis's Portfolio
           </Typography>
+
+          <Button
+            color="inherit"
+            className={classes.menuButton}
+            href="https://my-portfolio-storage.s3.amazonaws.com/Ryan_Bettis_Resume.pdf"
+          >
+            Resume
+          </Button>
           <Button
             color="inherit"
             className={classes.menuButton}
@@ -37,8 +45,13 @@ export default function NavBar() {
           >
             GitHub
           </Button>
-          <Button color="inherit" className={classes.menuButton}>
-            Resume
+
+          <Button
+            color="inherit"
+            className={classes.menuButton}
+            href={'mailto:ryanbettis@gmail.com'}
+          >
+            Email
           </Button>
         </Toolbar>
       </AppBar>
