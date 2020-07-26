@@ -13,6 +13,7 @@ import Divider from '@material-ui/core/Divider';
 import FindACriterion from '../Images/find_a_criterion.jpg';
 import CollectionTracker from '../Images/collection_tracker.jpg';
 import TwitterClone from '../Images/twitter_clone.jpg';
+import ButtonBase from '@material-ui/core/ButtonBase';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -26,6 +27,10 @@ const useStyles = makeStyles((theme) => ({
   media: {
     height: 240,
   },
+  cardAction: {
+    display: 'block',
+    textAlign: 'initial',
+  },
 }));
 
 export default function Projects() {
@@ -37,11 +42,70 @@ export default function Projects() {
         <Grid container spacing={0} justify="center">
           <Grid item xl={3} lg={3} md={4} sm={7} xs={7}>
             <Card className={classes.card}>
-              <CardMedia
-                className={classes.media}
-                image={FindACriterion}
-                title="Find a Criterion"
-              />
+              <ButtonBase
+                className={classes.cardAction}
+                href="https://racerestream.com"
+              >
+                <CardMedia
+                  className={classes.media}
+                  image="https://my-portfolio-storage.s3.amazonaws.com/RaceRestream.jpg"
+                  title="Race Restream"
+                />
+              </ButtonBase>
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="h2">
+                  Race Restream
+                </Typography>
+                <Typography variant="body2" color="textSecondary" component="p">
+                  Restream speedrun and blind races on twitch with ease.
+                  <br />
+                  <br />
+                  Simplifies and streamlines the race restream process on
+                  twitch. Rather than capturing streams with multiple windows,
+                  this tool allows the restreamer to capture 20+ channels in one
+                  browser window. Easily swap streams in and out of the 4
+                  channel windows to capture all participants in the event. This
+                  app is ideal for restreaming speedrun and blind races, but can
+                  be used for anything that requires restreaming multiple
+                  channels.
+                  <br />
+                  <br />
+                  <strong>
+                    <u>Technologies</u>
+                  </strong>
+                  <br />
+                  Create React App, React Router, React Bootstrap, Node.js,
+                  Serverless Application Framework, API Gateway, Lambda, S3,
+                  CloudFront, Route 53
+                </Typography>
+              </CardContent>
+              <Divider />
+              <CardActions>
+                <Button
+                  size="medium"
+                  href="https://github.com/rjbettis/race-restreamer"
+                >
+                  GitHub
+                </Button>
+                <Button size="medium" href="https://racerestream.com">
+                  Website
+                </Button>
+              </CardActions>
+            </Card>
+          </Grid>
+
+          <Grid item xl={3} lg={3} md={4} sm={7} xs={7}>
+            <Card className={classes.card}>
+              <ButtonBase
+                className={classes.cardAction}
+                href="https://findacriterion.com"
+              >
+                <CardMedia
+                  className={classes.media}
+                  image={FindACriterion}
+                  title="Find a Criterion"
+                />
+              </ButtonBase>
               <CardContent>
                 <Typography gutterBottom variant="h5" component="h2">
                   Find a Criterion
@@ -61,17 +125,8 @@ export default function Projects() {
                     <u>Technologies</u>
                   </strong>
                   <br />
-                  Create React App
-                  <br />
-                  React Router
-                  <br />
-                  React Bootstrap
-                  <br />
-                  AWS S3
-                  <br />
-                  AWS CloudFront
-                  <br />
-                  AWS Route 53
+                  Create React App, React Router, React Bootstrap, S3,
+                  CloudFront, Route 53
                 </Typography>
               </CardContent>
               <Divider />
@@ -82,7 +137,7 @@ export default function Projects() {
                 >
                   GitHub
                 </Button>
-                <Button size="medium" href="https://www.findacriterion.com">
+                <Button size="medium" href="https://findacriterion.com">
                   Website
                 </Button>
               </CardActions>
@@ -91,11 +146,16 @@ export default function Projects() {
 
           <Grid item xl={3} lg={3} md={4} sm={7} xs={7}>
             <Card className={classes.card}>
-              <CardMedia
-                className={classes.media}
-                image={CollectionTracker}
-                title="Find a Criterion"
-              />
+              <ButtonBase
+                className={classes.cardAction}
+                href="https://game-collection.org"
+              >
+                <CardMedia
+                  className={classes.media}
+                  image={CollectionTracker}
+                  title="Find a Criterion"
+                />
+              </ButtonBase>
               <CardContent>
                 <Typography gutterBottom variant="h5" component="h2">
                   Collection Tracker
@@ -113,27 +173,9 @@ export default function Projects() {
                     <u>Technologies</u>
                   </strong>
                   <br />
-                  Create React App
-                  <br />
-                  React Router
-                  <br />
-                  React Bootstrap
-                  <br />
-                  Node.js
-                  <br />
-                  Serveless Application Framework
-                  <br />
-                  AWS API Gateway
-                  <br />
-                  AWS Lambda
-                  <br />
-                  AWS DynamoDB
-                  <br />
-                  AWS S3
-                  <br />
-                  AWS CloudFront
-                  <br />
-                  AWS Route 53
+                  Create React App, React Router, React Bootstrap, Node.js,
+                  Serverless Application Framework, API Gateway, Lambda,
+                  DynamoDB, S3, CloudFront, Route 53
                 </Typography>
               </CardContent>
               <Divider />
@@ -144,7 +186,7 @@ export default function Projects() {
                 >
                   GitHub
                 </Button>
-                <Button size="medium" href="https://www.game-collection.org">
+                <Button size="medium" href="https://game-collection.org">
                   Website
                 </Button>
               </CardActions>
@@ -173,22 +215,9 @@ export default function Projects() {
                     <u>Technologies</u>
                   </strong>
                   <br />
-                  Create React App
-                  <br />
-                  React Router
-                  <br />
-                  React Bootstrap
-                  <br />
-                  Node.js
-                  <br />
-                  Serveless Application Framework
-                  <br />
-                  AWS API Gateway
-                  <br />
-                  AWS Lambda
-                  <br />
+                  Create React App, React Router, React Bootstrap, Node.js,
+                  Serveless Application Framework, AWS API Gateway, AWS Lambda,
                   AWS S3
-                  <br />
                 </Typography>
               </CardContent>
               <Divider />
