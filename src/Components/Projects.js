@@ -72,11 +72,11 @@ export default function Projects() {
                   <br />
                   <strong>
                     <u>Technologies</u>
+                    <br />
+                    Create React App, React Router, React Bootstrap, Node.js,
+                    Serverless Application Framework, API Gateway, Lambda, S3,
+                    CloudFront, Route 53
                   </strong>
-                  <br />
-                  Create React App, React Router, React Bootstrap, Node.js,
-                  Serverless Application Framework, API Gateway, Lambda, S3,
-                  CloudFront, Route 53
                 </Typography>
               </CardContent>
               <Divider />
@@ -123,10 +123,10 @@ export default function Projects() {
                   <br />
                   <strong>
                     <u>Technologies</u>
+                    <br />
+                    Create React App, React Router, React Bootstrap, S3,
+                    CloudFront, Route 53
                   </strong>
-                  <br />
-                  Create React App, React Router, React Bootstrap, S3,
-                  CloudFront, Route 53
                 </Typography>
               </CardContent>
               <Divider />
@@ -171,11 +171,11 @@ export default function Projects() {
                   <br />
                   <strong>
                     <u>Technologies</u>
+                    <br />
+                    Create React App, React Router, React Bootstrap, Node.js,
+                    Serverless Application Framework, API Gateway, Lambda,
+                    DynamoDB, S3, CloudFront, Route 53
                   </strong>
-                  <br />
-                  Create React App, React Router, React Bootstrap, Node.js,
-                  Serverless Application Framework, API Gateway, Lambda,
-                  DynamoDB, S3, CloudFront, Route 53
                 </Typography>
               </CardContent>
               <Divider />
@@ -213,11 +213,11 @@ export default function Projects() {
                   <br />
                   <strong>
                     <u>Technologies</u>
+                    <br />
+                    Create React App, React Router, React Bootstrap, Node.js,
+                    Serveless Application Framework, AWS API Gateway, AWS
+                    Lambda, AWS S3
                   </strong>
-                  <br />
-                  Create React App, React Router, React Bootstrap, Node.js,
-                  Serveless Application Framework, AWS API Gateway, AWS Lambda,
-                  AWS S3
                 </Typography>
               </CardContent>
               <Divider />
